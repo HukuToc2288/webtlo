@@ -29,7 +29,7 @@ function block_actions() {
 	if (lock_actions == 0) {
 		$("#topics_control button").addClass("ui-state-disabled").prop("disabled", true);
 		$("#main-subsections, #tor_download_options").selectmenu("disable");
-		$("#loading, #process").show();
+		$("#loading, #process").css("visibility","visible")
 		lock_actions = 1;
 	} else {
 		$("#topics_control button").removeClass("ui-state-disabled").prop("disabled", false);
@@ -42,7 +42,7 @@ function block_actions() {
 			$(".tor_stop, .tor_remove, .tor_label, .tor_start").addClass("ui-state-disabled").prop("disabled", true);
 		}
 		$("#main-subsections, #tor_download_options").selectmenu("enable");
-		$("#loading, #process").hide();
+		$("#loading, #process").css("visibility","invisible")
 		lock_actions = 0;
 	}
 }

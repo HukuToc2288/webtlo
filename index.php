@@ -243,6 +243,7 @@ try {
                         <button id="control_torrents" name="control_torrents" type="button" title="Выполнить регулировку раздач в торрент-клиентах">
                             <i class="fa fa-adjust" aria-hidden="true"></i> Регулировка раздач
                         </button>
+                        <br>
                         <div id="indication">
                             <i id="loading" class="fa fa-spinner fa-pulse"></i>
                             <div id="process"></div>

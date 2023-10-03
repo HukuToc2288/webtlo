@@ -295,6 +295,10 @@ li.menu.ui-tabs-active {
 	display: inline-block;
 }
 
+#indication {
+	padding-top: 5px;
+}
+
 #loading {
 	font-size: small;
 	margin-left: 5px;
